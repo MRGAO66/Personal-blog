@@ -61,7 +61,10 @@ export default {
       location.hash = item.anchor;
     },
     // 设置activeAnchor为正确的值
-    setSelect() {
+    setSelect(scrollDom) {
+      if (scrollDom) {
+        return;
+      }
       this.activeAnchor = ""; // 由于后续要重新设置，先清空之前的状态
       const range = 200;
       for (const dom of this.doms) {

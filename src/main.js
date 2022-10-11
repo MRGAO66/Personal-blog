@@ -32,7 +32,7 @@ new Vue({
 // }
 // eventBus.$on("event1", handler1);
 // eventBus.$on("event1", handler2);
-// eventBus.$on("event2", handler1);
+// eventBus.$on("event2", handler2);
 
 // window.eventBus = eventBus;
 // window.handler1 = handler1;
