@@ -10,8 +10,8 @@ import store from "./store"
 Vue.prototype.$showMessage = showMessage;
 
 //注册全局指令
-import vLoading from "./directives/loading"
-import vLazy from "./directives/lazy";
+import vLoading from "./directives/loading.js"
+import vLazy from "./directives/lazy.js";
 Vue.directive("loading", vLoading);
 Vue.directive("lazy", vLazy);
 
